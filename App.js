@@ -47,7 +47,7 @@ export default class App extends Component {
       ]),
       onPanResponderRelease: () => {
         Animated.spring(this.state.pan);
-        // alert(JSON.stringify(this.state.pan)); //Shows an object with X and Y coords
+        // alert(JSON.stringify(this.state.pan.x)); //Shows an object with X and Y coords
       }
     });
   }
@@ -69,10 +69,22 @@ export default class App extends Component {
       }
     ];
   }
+  getStyleRoller() {
+    return [
+      styles.roller,
+      {
+        transform: [
+          {
+            scaleY: this.state.pan.y
+          }
+        ]
+      }
+    ];
+  }
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.roller} />
+        <Animated.View style={this.getStyleRoller()} />
         <Animated.View
           style={this.getStyle()}
           {...this._panResponder.panHandlers}
@@ -95,7 +107,7 @@ const styles = StyleSheet.create({
   },
   roller: {
     backgroundColor: 'blue',
-    height: 10,
-    width: '100%'
+    width: '100%',
+    height: 2
   }
 });
