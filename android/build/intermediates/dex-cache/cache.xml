@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_c088ed4e61db64fbb4dc33f5ebe77faff6420ae8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b896b55d3214e670b170cc8c425ee3919fef93f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9429dab37fc650bdfe574b60e6fe557fb7ca3f9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/cato/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b69637b25309f2e895d79c42b3340f4953a92f6b.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b69637b25309f2e895d79c42b3340f4953a92f6b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,70 +17,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_d0e4cb476966624f3c5a239ce4464fc31ef5633c.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_d0e4cb476966624f3c5a239ce4464fc31ef5633c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_fb7d07276f842a1abf923e5130a1449e661a87ec.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_56a899eaacfe6ba4d8f953146ca1566e6a77a1cf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_2ebb39ab1f1c1db63a6233f152984f790d4b9ed2.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_fc453fd952f637ffb8cb331d9ebf64c9f9b5ff8a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_4c27c6a90df3b0e05bf1241f59326a0cd4a7f40f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_5acbf3100c6b744ef9b202d09148786ad54e865c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_8f87bab54c614b7fac8999dc394809c5ba6278c8.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_dd0b593901016d60fcf54ee39e6b70dde188d429.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_a08d7047f42efe05e5a4122779d187fdeb19ea14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_387849e1076755dac0d086527ac3eedc1767ff1a.jar" />
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_6b52814f56a88cf809d6305dace37e832a91e036.jar" />
     </item>
     <item
         is-multidex="false"
@@ -116,16 +62,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_b4a379fec7aabd296dcbd36d92bbeb5e7fa343c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_7bdebf46818a5313765f154eb246069aac62334e.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_b4a379fec7aabd296dcbd36d92bbeb5e7fa343c8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -134,16 +71,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_49a3a9042ca528f8e3eb66940b8ccbb75d4dd7de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_7a506c8a90f880af33bd76f230beb1828f9a7a25.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_49a3a9042ca528f8e3eb66940b8ccbb75d4dd7de.jar" />
     </item>
     <item
         is-multidex="false"
@@ -152,16 +80,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_2e8aa8228d7509c97197d8cddd4d27d0cf33455d.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_2e8aa8228d7509c97197d8cddd4d27d0cf33455d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_1e6bfabee783e0ed60652d0c287a0732a331f807.jar" />
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_fea22e5404a520debdc95a521344e37d71bbfc7e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -170,25 +98,97 @@
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_5d2e38bbc4df70204477443a418de8b0a3068f87.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_5d2e38bbc4df70204477443a418de8b0a3068f87.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/cato/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9429dab37fc650bdfe574b60e6fe557fb7ca3f9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_d42759ec14822d0022cf61ab5bef741b4a36807f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_47273f0b7cec64314cb4d9b09848d8c3d726bde8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_166a805022b72e4b69ff88d19b68d805a9c3d37a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_c159648c8949c0775a72155a88cd34995efa94b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_a08d7047f42efe05e5a4122779d187fdeb19ea14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_d3f148ab8284e5f29a42245c044371c498f32ab4.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_94744fe56f6fcc442a6b029961e9683c013f0945.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cato/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/cato/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_37383b3c0f6d57e39c755d075731cf2f9d902d8f.jar" />
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_6166989c468c6a2f961eb42af4992cceaf34a589.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_d26e8e8ed25862394aedb94a033d650f9db9bcee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/cato/React &amp; Native/animatedHandler/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_c3c63a9d07d88f61eee714b67835c107a323e653.jar" />
     </item>
 
 </items>

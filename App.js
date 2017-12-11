@@ -15,7 +15,7 @@ import {
   PanResponder
 } from 'react-native';
 
-const SQUARE_DIMENSIONS = 100;
+const SQUARE_DIMENSIONS = 50;
 
 export default class App extends Component {
   constructor(props) {
@@ -47,7 +47,7 @@ export default class App extends Component {
       ]),
       onPanResponderRelease: () => {
         Animated.spring(this.state.pan);
-        // alert(JSON.stringify(this.state.pan)); Shows an object with X and Y coords
+        // alert(JSON.stringify(this.state.pan)); //Shows an object with X and Y coords
       }
     });
   }
@@ -63,9 +63,6 @@ export default class App extends Component {
       {
         transform: [
           {
-            translateX: this.state.pan.x
-          },
-          {
             translateY: this.state.pan.y
           }
         ]
@@ -75,6 +72,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={styles.roller} />
         <Animated.View
           style={this.getStyle()}
           {...this._panResponder.panHandlers}
@@ -87,12 +85,17 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
+    alignItems: 'center'
   },
   square: {
     width: SQUARE_DIMENSIONS,
     height: SQUARE_DIMENSIONS,
+    borderRadius: 30,
     backgroundColor: 'blue'
+  },
+  roller: {
+    backgroundColor: 'blue',
+    height: 10,
+    width: '100%'
   }
 });
