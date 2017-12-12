@@ -12,10 +12,12 @@ import {
   Text,
   View,
   Animated,
-  PanResponder
+  PanResponder,
+  Dimensions
 } from 'react-native';
 
 const SQUARE_DIMENSIONS = 50;
+const { height, width } = Dimensions.get('window');
 
 export default class App extends Component {
   constructor(props) {
@@ -41,43 +43,41 @@ export default class App extends Component {
         });
         this.state.pan.setValue({ x: 0, y: 0 });
       },
-      onPanResponderMove: Animated.event([
-        null,
-        { dx: this.state.pan.x, dy: this.state.pan.y }
-      ]),
+      onPanResponderMove: (e, gestureState) => {
+        // custom logic here
+        let elStringy = JSON.stringify(this.state.pan.y);
+        alert(elStringy, this.state.pan.y);
+        Animated.event([
+          null,
+          {
+            dx: this.state.pan.x,
+            dy: this.state.pan.y
+          }
+        ])(e, gestureState); // <<--- INVOKING HERE!
+      },
       onPanResponderRelease: () => {
-        Animated.spring(this.state.pan);
-        // alert(JSON.stringify(this.state.pan.x)); //Shows an object with X and Y coords
+        // alert(height);
+        let valorparseado = JSON.stringify(this.state.pan.y) * 1 + 10;
+        let variableNueva = valorparseado * 100 / height;
+
+        //redux :D
+
+        // alert(variableNueva);
+        // Animated.spring(this.state.pan);
+        // alert(JSON.stringify(this.state.pan.y)); //Shows an object with X and Y coords
       }
     });
   }
 
-  componentWillUnmoun() {
+  componentWillUnmount() {
     this.state.pan.x.removeAllListeners();
     this.state.pan.y.removeAllListeners();
-  }
-
-  getStyle() {
-    return [
-      styles.square,
-      {
-        transform: [
-          {
-            translateY: this.state.pan.y
-          }
-        ]
-      }
-    ];
   }
   getStyleRoller() {
     return [
       styles.roller,
       {
-        transform: [
-          {
-            scaleY: this.state.pan.y
-          }
-        ]
+        height: this.state.pan.y
       }
     ];
   }
@@ -86,7 +86,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <Animated.View style={this.getStyleRoller()} />
         <Animated.View
-          style={this.getStyle()}
+          style={styles.square}
           {...this._panResponder.panHandlers}
         />
       </View>
@@ -103,11 +103,13 @@ const styles = StyleSheet.create({
     width: SQUARE_DIMENSIONS,
     height: SQUARE_DIMENSIONS,
     borderRadius: 30,
-    backgroundColor: 'blue'
+    backgroundColor: 'blue',
+    marginTop: 5
   },
   roller: {
     backgroundColor: 'blue',
     width: '100%',
-    height: 2
+    height: 10,
+    paddingTop: 10
   }
 });
